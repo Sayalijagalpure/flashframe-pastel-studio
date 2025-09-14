@@ -1,39 +1,34 @@
 import { Card, CardContent } from "@/components/ui/card";
-import weddingImage from "@/assets/wedding-sample.jpg";
-import birthdayImage from "@/assets/birthday-sample.jpg";
-import corporateImage from "@/assets/corporate-sample.jpg";
-import outdoorImage from "@/assets/outdoor-sample.jpg";
-import creativeImage from "@/assets/creative-sample.jpg";
 
 const PortfolioSection = () => {
   const portfolioCategories = [
     {
       title: "Weddings & Engagements",
-      image: weddingImage,
+      image: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       caption: "Eternal wedding smiles",
       description: "Capturing the magic of your special day with romantic, timeless photography."
     },
     {
       title: "Birthday Celebrations",
-      image: birthdayImage,
+      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       caption: "Joyful birthday moments",
       description: "Making every birthday celebration memorable with vibrant, happy photography."
     },
     {
       title: "Corporate & Professional Portraits",
-      image: corporateImage,
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       caption: "Professional excellence",
       description: "Polished corporate headshots and team photos that showcase your professional brand."
     },
     {
       title: "Outdoor Shoots",
-      image: outdoorImage,
+      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       caption: "Nature-inspired portraits",
       description: "Beautiful outdoor sessions that capture your natural beauty in stunning environments."
     },
     {
       title: "Creative Concept Photography",
-      image: creativeImage,
+      image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       caption: "Artistic vision realized",
       description: "Unique, artistic photography that pushes creative boundaries and tells your story."
     }
