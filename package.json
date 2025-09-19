@@ -4,7 +4,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-<<<<<<< HEAD
   "homepage": "https://sayalijagalpure.github.io/flashframe-pastel-studio/",
 "scripts": {
   "predeploy": "npm run build",
@@ -15,7 +14,7 @@
   "lint": "eslint .",
   "preview": "vite preview"
 },
-=======
+
   "homepage": "https://Sayalijagalpure.github.io/flashframe-pastel-studio",
 
   "scripts": {
@@ -27,7 +26,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
->>>>>>> 9d9fc4a1d70f561c35b37ca36229b6ebed48382b
+
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
